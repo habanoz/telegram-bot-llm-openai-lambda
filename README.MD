@@ -29,16 +29,17 @@ Send your request.
 ```bash
 curl -H "Content-Type: application/json" "http://localhost:8000/" -d  @test/sample_events/message_event.json
 ```
+For a chat definition, you may send a message to the bot and check AWS lambda logs for the event definitions. It is best if you replace file content with the event definition from the logs. You may need to modify the formatting of the event definition to have a valid JSON document.
 
 ### Deployment
 
-Deploy with following command.
+Deploy with the following command.
 
 ```bash
 chalice deploy
 ```
 
-Please note that you will need to create and set environment variables in the aws lambda console.
+Please note that you will need to create and set environment variables in the AWS lambda console.
 
 ## Telegram Configuration
 

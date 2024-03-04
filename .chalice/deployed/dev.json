@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::860783842911:role/telegram-bot-llm-openai-lambda-dev",
+      "role_name": "telegram-bot-llm-openai-lambda-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:eu-west-2:860783842911:function:telegram-bot-llm-openai-lambda-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "t1ifiuzf1m",
+      "rest_api_url": "https://t1ifiuzf1m.execute-api.eu-west-2.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}

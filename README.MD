@@ -4,6 +4,8 @@ This is a Telegram Chat Bot that is designed to work on AWS Lambda. OpenAI model
 
 Chalice framework is used to deploy the application to AWS Lambda.
 
+Check out my [blog post](https://habanoz.github.io/tech-feed/analysis/aws-lambda-llm-telegram-bot/) about this work.
+
 ## AWS CLI
 
 Here are resources to prepare the AWS environment.
